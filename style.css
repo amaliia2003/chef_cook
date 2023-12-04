@@ -1,0 +1,248 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap');
+
+#menu{
+    display:flex;
+    justify-content:space-evenly;
+    font-family: 'Nunito Sans', sans-serif;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    color: antiquewhite;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0);
+    transition: 0.5s;
+}
+#menu h2{
+    text-transform: uppercase;
+}
+.menu_item{
+    display: inline-block;
+    margin:  0 5px;
+}
+#first>span{
+   color: yellow;
+   text-align: center;
+   font-family: 'Fasthand', cursive;
+   font-size: 60px;
+}
+#first>h1{
+color: aliceblue;
+font-family: 'Nunito Sans', sans-serif;
+text-transform: uppercase;
+font-size: 70px;
+letter-spacing: 1.5px;
+}
+#first{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/sushi.jpg);
+    height:100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#first>p{
+    color: aliceblue;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+
+}
+#second{
+    background: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:80px;
+    text-align: center;
+}
+#second span{
+    color: green;
+    font-family: 'Fasthand', cursive;
+    font-size: 60px;
+    margin-bottom: 0%;
+}
+#second h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 10;
+}
+#second p{
+    width:500px;
+    font-size:20px;
+    padding:10px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+#second>img{
+    height:440px;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:700px;
+}
+.block1{
+    background:url(img/mango.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block2{
+    background:url(img/lemon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block3{
+    background: url(img/sushi.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block4{
+    background: url(img/tomatoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.block5{
+    background: url(img/mango.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.resives_block{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    border:1px solid white;
+    padding:35px 50px;
+    background: rgba(0,0,0,0.2);
+    height: 100%;
+}
+.resives_block>span{
+    color: green;
+    font-family: 'Fasthand', cursive;
+    font-size: 50px;
+    margin: 0;
+    line-height: 1;
+}
+.resives_block>h3{
+color: aliceblue;
+font-family: 'Nunito Sans', sans-serif;
+text-transform: uppercase;
+font-size: 40px;
+letter-spacing: 1.5px;
+margin: 0%;
+margin-bottom: 15px;
+}
+.resives_block>p{
+    color: aliceblue;
+    font-family:'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#four img{
+height:350px;
+width:300px;
+}
+#four{
+    align-items: center;
+    display: flex;
+    gap:30px;
+    padding:80px;
+}
+#four span{
+    color: green;
+    font-family: 'Fasthand', cursive;
+    font-size: 50px;
+    margin: 0;
+    line-height: 1;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+#four h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 10;
+    text-align: center;
+}
+#four p{
+    color: rgb(0, 0, 0);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+#images{
+    display: flex;
+    gap:30px;
+}
+#button{
+    color: green;
+    border: none;
+    background: none;
+    margin: 0% auto;
+    width: 100%;
+    font-size: 20px;
+}
+.last>div{
+    display: flex;
+    gap: 10px;
+}
+#footer_coloums{
+    display:flex;
+    justify-content:space-evenly;
+    color: aliceblue;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+#footer{
+    background: black;
+    padding-top: 50px;
+}
+.modal_window{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height:100vh;
+    z-index:90;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#Copiright{
+    text-align: center;
+    color: gray;
+}
+#text{
+    text-align: center;
+}
+#arrow{
+    border:3px solid black;
+    position:fixed;
+    bottom: 15px;
+    right: 15px;
+    background:white;
+    font-size: 35px;
+    border-radius: 50% ;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
